@@ -1,0 +1,626 @@
+2024-05-27 23:41:58,342 3632 INFO ? odoo: Odoo version 16.0 
+2024-05-27 23:41:58,342 3632 INFO ? odoo: Using configuration file at C:\Users\baana\Desktop\odoo\odoo-blankcoffee\odoo.conf 
+2024-05-27 23:41:58,342 3632 INFO ? odoo: addons paths: ['C:\\Users\\baana\\Desktop\\odoo\\odoo-blankcoffee\\odoo\\addons', 'c:\\users\\baana\\appdata\\local\\openerp s.a\\odoo\\addons\\16.0', 'c:\\users\\baana\\desktop\\odoo\\odoo-blankcoffee\\addons', 'c:\\users\\baana\\desktop\\odoo\\odoo-blankcoffee\\odoo\\addons'] 
+2024-05-27 23:41:58,342 3632 INFO ? odoo: database: odoo@localhost:5432 
+2024-05-27 23:41:58,691 3632 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2024-05-27 23:42:00,101 3632 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-5G8JKV7:8069 
+2024-05-27 23:44:21,789 3632 INFO ? werkzeug: 127.0.0.1 - - [27/May/2024 23:44:21] "GET / HTTP/1.1" 303 - 1 0.031 0.601
+2024-05-27 23:44:21,905 3632 INFO ? werkzeug: 127.0.0.1 - - [27/May/2024 23:44:21] "GET /web HTTP/1.1" 303 - 2 0.000 0.100
+2024-05-27 23:44:24,477 3632 INFO ? werkzeug: 127.0.0.1 - - [27/May/2024 23:44:24] "GET /web/database/selector HTTP/1.1" 200 - 2 0.004 2.562
+2024-05-27 23:44:25,081 3632 INFO ? werkzeug: 127.0.0.1 - - [27/May/2024 23:44:25] "GET /web/static/src/libs/fontawesome/css/font-awesome.css HTTP/1.1" 200 - 1 0.007 0.542
+2024-05-27 23:44:25,097 3632 INFO ? werkzeug: 127.0.0.1 - - [27/May/2024 23:44:25] "GET /web/static/lib/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 - 1 0.004 0.545
+2024-05-27 23:44:25,112 3632 INFO ? werkzeug: 127.0.0.1 - - [27/May/2024 23:44:25] "GET /web/static/lib/bootstrap/js/dist/dom/manipulator.js HTTP/1.1" 200 - 1 0.016 0.549
+2024-05-27 23:44:25,135 3632 INFO ? werkzeug: 127.0.0.1 - - [27/May/2024 23:44:25] "GET /web/static/lib/bootstrap/js/dist/dom/data.js HTTP/1.1" 200 - 1 0.003 0.583
+2024-05-27 23:44:25,135 3632 INFO ? werkzeug: 127.0.0.1 - - [27/May/2024 23:44:25] "GET /web/static/lib/bootstrap/js/dist/dom/event-handler.js HTTP/1.1" 200 - 1 0.003 0.583
+2024-05-27 23:44:25,135 3632 INFO ? werkzeug: 127.0.0.1 - - [27/May/2024 23:44:25] "GET /web/static/lib/jquery/jquery.js HTTP/1.1" 200 - 1 0.004 0.582
+2024-05-27 23:44:25,553 3632 INFO ? werkzeug: 127.0.0.1 - - [27/May/2024 23:44:25] "GET /web/static/lib/bootstrap/js/dist/base-component.js HTTP/1.1" 200 - 1 0.004 0.399
+2024-05-27 23:44:25,553 3632 INFO ? werkzeug: 127.0.0.1 - - [27/May/2024 23:44:25] "GET /web/static/lib/bootstrap/js/dist/dom/selector-engine.js HTTP/1.1" 200 - 1 0.004 0.414
+2024-05-27 23:44:25,553 3632 INFO ? werkzeug: 127.0.0.1 - - [27/May/2024 23:44:25] "GET /web/static/src/public/database_manager.js HTTP/1.1" 200 - 1 0.000 0.387
+2024-05-27 23:44:25,583 3632 INFO ? werkzeug: 127.0.0.1 - - [27/May/2024 23:44:25] "GET /web/static/lib/bootstrap/js/dist/modal.js HTTP/1.1" 200 - 1 0.005 0.412
+2024-05-27 23:44:25,714 3632 INFO ? werkzeug: 127.0.0.1 - - [27/May/2024 23:44:25] "GET /web/static/img/logo2.png HTTP/1.1" 200 - 1 0.000 0.107
+2024-05-27 23:44:25,835 3632 INFO ? werkzeug: 127.0.0.1 - - [27/May/2024 23:44:25] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 1 0.002 0.109
+2024-05-27 23:44:25,935 3632 INFO ? werkzeug: 127.0.0.1 - - [27/May/2024 23:44:25] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 1 0.008 0.071
+2024-05-27 23:49:14,156 3632 INFO ? odoo.service.server: Initiating shutdown 
+2024-05-27 23:49:14,157 3632 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-05-27 23:49:14,646 3632 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2024-05-28 17:35:19,313 15240 INFO ? odoo: Odoo version 16.0 
+2024-05-28 17:35:19,313 15240 INFO ? odoo: Using configuration file at C:\Users\baana\Desktop\odoo\odoo-blankcoffee\odoo.conf 
+2024-05-28 17:35:19,313 15240 INFO ? odoo: addons paths: ['C:\\Users\\baana\\Desktop\\odoo\\odoo-blankcoffee\\odoo\\addons', 'c:\\users\\baana\\appdata\\local\\openerp s.a\\odoo\\addons\\16.0', 'c:\\users\\baana\\desktop\\odoo\\odoo-blankcoffee\\addons', 'c:\\users\\baana\\desktop\\odoo\\odoo-blankcoffee\\odoo\\addons'] 
+2024-05-28 17:35:19,313 15240 INFO ? odoo: database: odoo@localhost:5432 
+2024-05-28 17:35:20,174 15240 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2024-05-28 17:35:22,128 15240 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-5G8JKV7:8069 
+2024-05-28 17:56:26,091 15240 INFO None odoo.service.db: RESTORING DB: blank 
+2024-05-28 17:57:16,209 15240 INFO blank odoo.modules.loading: loading 1 modules... 
+2024-05-28 17:57:16,215 15240 INFO blank odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-05-28 17:57:16,230 15240 INFO blank odoo.modules.loading: loading 82 modules... 
+2024-05-28 17:57:24,564 15240 INFO blank odoo.modules.loading: 82 modules loaded in 8.33s, 0 queries (+0 extra) 
+2024-05-28 17:57:25,073 15240 INFO blank odoo.modules.loading: Modules loaded. 
+2024-05-28 17:57:25,085 15240 INFO blank odoo.modules.registry: Registry loaded in 8.924s 
+2024-05-28 17:57:25,275 15240 INFO blank odoo.service.db: RESTORE DB: blank 
+2024-05-28 17:57:25,275 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 17:57:25] "POST /web/database/restore HTTP/1.1" 303 - 46 1.587 61.960
+2024-05-28 17:57:25,375 15240 INFO blank odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-05-28 17:57:26,410 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 17:57:26] "GET /web/database/manager HTTP/1.1" 200 - 10 0.000 1.120
+2024-05-28 17:57:44,052 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-05-28 17:57:44,068 15240 INFO blank odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-05-28 17:57:44,083 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `Account: Post draft entries with auto_post enabled and accounting date up to today`. 
+2024-05-28 17:57:44,099 15240 INFO blank odoo.addons.base.models.ir_cron: Job `Account: Post draft entries with auto_post enabled and accounting date up to today` done. 
+2024-05-28 17:57:44,099 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-05-28 17:57:44,114 15240 INFO blank odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-05-28 17:57:44,130 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-28 17:57:44,130 15240 INFO blank odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-28 17:57:44,146 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2024-05-28 17:57:44,184 15240 INFO blank odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2024-05-28 17:57:44,253 15240 INFO blank odoo.addons.base.models.res_users: GC'd 1 user log entries 
+2024-05-28 17:57:44,299 15240 INFO blank odoo.addons.auth_totp.models.auth_totp: GC'd 0 totp devices entries 
+2024-05-28 17:57:44,315 15240 INFO blank odoo.models.unlink: User #1 deleted bus.bus records with IDs: [6588, 6589, 6590, 6591, 6592, 6593] 
+2024-05-28 17:57:44,654 15240 INFO blank odoo.addons.base.models.ir_cron: Job `Base: Auto-vacuum internal data` done. 
+2024-05-28 17:57:44,654 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `Notification: Delete Notifications older than 6 Month`. 
+2024-05-28 17:57:44,654 15240 INFO blank odoo.addons.base.models.ir_cron: Job `Notification: Delete Notifications older than 6 Month` done. 
+2024-05-28 17:57:44,669 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `Users: Notify About Unregistered Users`. 
+2024-05-28 17:57:44,669 15240 INFO blank odoo.addons.base.models.ir_cron: Job `Users: Notify About Unregistered Users` done. 
+2024-05-28 17:57:44,685 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-05-28 17:57:44,685 15240 INFO blank odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-05-28 17:57:44,685 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `Procurement: run scheduler`. 
+2024-05-28 17:57:44,700 15240 INFO blank odoo.addons.stock.models.stock_rule: _run_scheduler_tasks is finished and committed 
+2024-05-28 17:57:44,870 15240 INFO blank odoo.addons.base.models.ir_cron: Job `Procurement: run scheduler` done. 
+2024-05-28 17:57:44,887 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `Purchase reminder`. 
+2024-05-28 17:57:44,890 15240 INFO blank odoo.addons.base.models.ir_cron: Job `Purchase reminder` done. 
+2024-05-28 17:57:44,890 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `Purchase reminder`. 
+2024-05-28 17:57:44,890 15240 INFO blank odoo.addons.base.models.ir_cron: Job `Purchase reminder` done. 
+2024-05-28 17:57:44,890 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `Purchase reminder`. 
+2024-05-28 17:57:44,890 15240 INFO blank odoo.addons.base.models.ir_cron: Job `Purchase reminder` done. 
+2024-05-28 17:57:44,890 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `Purchase reminder`. 
+2024-05-28 17:57:44,890 15240 INFO blank odoo.addons.base.models.ir_cron: Job `Purchase reminder` done. 
+2024-05-28 17:57:44,890 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `Purchase reminder`. 
+2024-05-28 17:57:44,890 15240 INFO blank odoo.addons.base.models.ir_cron: Job `Purchase reminder` done. 
+2024-05-28 17:57:44,905 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `Purchase reminder`. 
+2024-05-28 17:57:44,905 15240 INFO blank odoo.addons.base.models.ir_cron: Job `Purchase reminder` done. 
+2024-05-28 17:57:44,905 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `Purchase reminder`. 
+2024-05-28 17:57:44,905 15240 INFO blank odoo.addons.base.models.ir_cron: Job `Purchase reminder` done. 
+2024-05-28 17:57:44,905 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `Purchase reminder`. 
+2024-05-28 17:57:44,905 15240 INFO blank odoo.addons.base.models.ir_cron: Job `Purchase reminder` done. 
+2024-05-28 17:57:44,905 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `Purchase reminder`. 
+2024-05-28 17:57:44,905 15240 INFO blank odoo.addons.base.models.ir_cron: Job `Purchase reminder` done. 
+2024-05-28 17:57:44,905 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `Purchase reminder`. 
+2024-05-28 17:57:44,905 15240 INFO blank odoo.addons.base.models.ir_cron: Job `Purchase reminder` done. 
+2024-05-28 17:57:44,905 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `Purchase reminder`. 
+2024-05-28 17:57:44,921 15240 INFO blank odoo.addons.base.models.ir_cron: Job `Purchase reminder` done. 
+2024-05-28 17:57:44,921 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `Purchase reminder`. 
+2024-05-28 17:57:44,921 15240 INFO blank odoo.addons.base.models.ir_cron: Job `Purchase reminder` done. 
+2024-05-28 17:57:44,921 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `Purchase reminder`. 
+2024-05-28 17:57:44,921 15240 INFO blank odoo.addons.base.models.ir_cron: Job `Purchase reminder` done. 
+2024-05-28 17:57:44,921 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `Purchase reminder`. 
+2024-05-28 17:57:44,921 15240 INFO blank odoo.addons.base.models.ir_cron: Job `Purchase reminder` done. 
+2024-05-28 17:57:44,921 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `Purchase reminder`. 
+2024-05-28 17:57:44,921 15240 INFO blank odoo.addons.base.models.ir_cron: Job `Purchase reminder` done. 
+2024-05-28 17:57:44,921 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `Purchase reminder`. 
+2024-05-28 17:57:44,921 15240 INFO blank odoo.addons.base.models.ir_cron: Job `Purchase reminder` done. 
+2024-05-28 17:57:44,937 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `Purchase reminder`. 
+2024-05-28 17:57:44,937 15240 INFO blank odoo.addons.base.models.ir_cron: Job `Purchase reminder` done. 
+2024-05-28 17:57:44,937 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `Purchase reminder`. 
+2024-05-28 17:57:44,937 15240 INFO blank odoo.addons.base.models.ir_cron: Job `Purchase reminder` done. 
+2024-05-28 17:57:44,937 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `Purchase reminder`. 
+2024-05-28 17:57:44,937 15240 INFO blank odoo.addons.base.models.ir_cron: Job `Purchase reminder` done. 
+2024-05-28 17:57:44,937 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `Digest Emails`. 
+2024-05-28 17:57:44,952 15240 INFO blank odoo.addons.base.models.ir_cron: Job `Digest Emails` done. 
+2024-05-28 17:57:44,954 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `HR Contract: update state`. 
+2024-05-28 17:57:44,954 15240 INFO blank odoo.addons.base.models.ir_cron: Job `HR Contract: update state` done. 
+2024-05-28 17:57:44,970 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `HR Employee: check work permit validity`. 
+2024-05-28 17:57:44,970 15240 INFO blank odoo.addons.base.models.ir_cron: Job `HR Employee: check work permit validity` done. 
+2024-05-28 17:57:44,970 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2024-05-28 17:57:44,970 15240 INFO blank odoo.addons.base.models.ir_cron: Job `Calendar: Event Reminder` done. 
+2024-05-28 17:57:44,986 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-05-28 17:57:44,986 15240 INFO blank odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-05-28 17:57:45,001 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-05-28 17:57:49,046 15240 INFO blank odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-05-28 17:57:49,046 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `Publisher: Update Notification`. 
+2024-05-28 17:57:49,347 15240 INFO blank odoo.addons.base.models.ir_cron: Job `Publisher: Update Notification` done. 
+2024-05-28 17:59:21,482 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-28 17:59:21,482 15240 INFO blank odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-28 18:02:34,093 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:02:34] "GET /web?db=blank HTTP/1.1" 303 - 2 0.000 0.063
+2024-05-28 18:02:47,800 15240 INFO blank odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-05-28 18:02:47,805 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:02:47] "GET /web/login HTTP/1.1" 200 - 96 0.163 13.527
+2024-05-28 18:02:48,355 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:02:48] "GET /web/assets/211-54662c6/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 10 0.032 0.199
+2024-05-28 18:02:48,355 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:02:48] "GET /web/assets/210-cbac23e/web.assets_frontend.min.css HTTP/1.1" 200 - 6 0.026 0.209
+2024-05-28 18:02:48,611 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:02:48] "GET /web/binary/company_logo HTTP/1.1" 200 - 3 0.008 0.133
+2024-05-28 18:02:48,970 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:02:48] "GET /web/assets/212-d63ddf8/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 6 0.010 0.130
+2024-05-28 18:02:49,465 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:02:49] "GET /website/translations/a0904ff8e2c6bfa6bb5d9f87c1ef6d45fe749aa6 HTTP/1.1" 200 - 12 0.020 0.075
+2024-05-28 18:02:49,765 15240 INFO ? werkzeug: 127.0.0.1 - - [28/May/2024 18:02:49] "GET /web/static/img/spin.svg HTTP/1.1" 200 - 1 0.000 0.180
+2024-05-28 18:03:10,519 15240 INFO blank odoo.addons.base.models.res_users: Login successful for db:blank login:baananoucontact@gmail.com from 127.0.0.1 
+2024-05-28 18:03:10,534 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:10] "POST /web/login HTTP/1.1" 303 - 46 0.052 1.217
+2024-05-28 18:03:35,140 15240 INFO blank odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-05-28 18:03:35,140 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:35] "GET /web HTTP/1.1" 200 - 172 0.177 24.409
+2024-05-28 18:03:35,290 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:35] "GET /web/assets/213-52a9cea/web.assets_common.min.css HTTP/1.1" 200 - 10 0.020 0.015
+2024-05-28 18:03:35,295 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:35] "GET /web/assets/214-b771321/web.assets_backend.min.css HTTP/1.1" 200 - 6 0.010 0.015
+2024-05-28 18:03:35,300 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:35] "GET /web/assets/216-b771321/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.005 0.020
+2024-05-28 18:03:35,310 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:35] "GET /web/assets/215-52a9cea/web.assets_common.min.js HTTP/1.1" 200 - 4 0.005 0.015
+2024-05-28 18:03:35,355 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:35] "GET /web/assets/217-5637173/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.055 0.010
+2024-05-28 18:03:35,435 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:35] "GET /web/webclient/translations/e2408b7f05a470706a52978b70ec680d6addb903?lang=en_US HTTP/1.1" 200 - 2 0.003 0.008
+2024-05-28 18:03:35,610 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:35] "GET /web/webclient/load_menus/7a515a0d50d786ced6710f2bd6c45f6cd41a89c7910bfa11f236741dac445ec1 HTTP/1.1" 200 - 33 0.026 0.114
+2024-05-28 18:03:36,245 15240 INFO ? werkzeug: 127.0.0.1 - - [28/May/2024 18:03:36] "GET /web/static/img/mobile-icons/android-192x192.png HTTP/1.1" 200 - 0 0.000 0.010
+2024-05-28 18:03:36,520 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:36] "GET /web/webclient/locale/en_US HTTP/1.1" 200 - 1 0.000 0.005
+2024-05-28 18:03:36,705 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:36] "POST /mail/init_messaging HTTP/1.1" 200 - 57 0.105 0.025
+2024-05-28 18:03:36,710 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:36] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 11 0.045 0.010
+2024-05-28 18:03:36,720 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:36] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 8 0.020 0.020
+2024-05-28 18:03:36,745 15240 INFO ? werkzeug: 127.0.0.1 - - [28/May/2024 18:03:36] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.050
+2024-05-28 18:03:36,748 15240 INFO ? werkzeug: 127.0.0.1 - - [28/May/2024 18:03:36] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.023
+2024-05-28 18:03:36,760 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:36] "POST /web/action/load HTTP/1.1" 200 - 8 0.031 0.019
+2024-05-28 18:03:36,825 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:36] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.010 0.006
+2024-05-28 18:03:36,845 15240 INFO blank odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-05-28 18:03:36,850 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:36] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 200 - 15 0.025 0.085
+2024-05-28 18:03:36,860 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:36] "POST /mail/inbox/messages HTTP/1.1" 200 - 9 0.005 0.015
+2024-05-28 18:03:36,945 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:36] "GET /web/image/mail.channel/1/avatar_128?unique=2a21dc10fb5a85b006276a0f6a5fb416cd8c146d96acc702a7c70a8182dd2b4f58a0787af4d4c6dcfb79b747f98293df81d6bd9d9708ca76cc106cf8ac2647fd HTTP/1.1" 200 - 16 0.025 0.024
+2024-05-28 18:03:36,965 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:36] "GET /web/image/res.partner/8/avatar_128 HTTP/1.1" 200 - 20 0.039 0.026
+2024-05-28 18:03:36,965 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:36] "GET /web/image/res.partner/2/avatar_128 HTTP/1.1" 200 - 20 0.040 0.020
+2024-05-28 18:03:37,020 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:37] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.015
+2024-05-28 18:03:37,040 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:37] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 10 0.000 0.025
+2024-05-28 18:03:37,055 15240 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-05-28 18:03:43,105 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:43] "POST /web/action/load HTTP/1.1" 200 - 13 0.001 0.024
+2024-05-28 18:03:43,185 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:43] "POST /web/dataset/call_kw/pos.config/get_views HTTP/1.1" 200 - 32 0.015 0.045
+2024-05-28 18:03:43,275 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:43] "POST /web/dataset/call_kw/pos.config/web_search_read HTTP/1.1" 200 - 33 0.030 0.025
+2024-05-28 18:03:43,315 15240 INFO ? werkzeug: 127.0.0.1 - - [28/May/2024 18:03:43] "GET /base/static/img/avatar.png HTTP/1.1" 200 - 0 0.000 0.010
+2024-05-28 18:03:43,375 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:43] "GET /web/image/res.users/6/avatar_128 HTTP/1.1" 200 - 8 0.000 0.020
+2024-05-28 18:03:47,010 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:47] "POST /web/dataset/call_button HTTP/1.1" 200 - 26 0.030 0.025
+2024-05-28 18:03:55,700 15240 INFO blank odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-05-28 18:03:55,700 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:55] "GET /pos/ui?config_id=1 HTTP/1.1" 200 - 165 0.120 8.545
+2024-05-28 18:03:55,805 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:55] "GET /web/assets/219-290252e/point_of_sale.pos_assets_backend_style.min.css HTTP/1.1" 200 - 11 0.010 0.020
+2024-05-28 18:03:55,805 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:55] "GET /web/assets/220-96d47eb/point_of_sale.assets.min.css HTTP/1.1" 200 - 11 0.005 0.020
+2024-05-28 18:03:55,810 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:55] "GET /web/assets/221-e394db0/point_of_sale.pos_assets_backend.min.js HTTP/1.1" 200 - 4 0.010 0.020
+2024-05-28 18:03:55,820 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:55] "GET /web/assets/222-96d47eb/point_of_sale.assets.min.js HTTP/1.1" 200 - 4 0.010 0.015
+2024-05-28 18:03:55,820 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:55] "GET /web/assets/223-9dcb5af/point_of_sale.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.005 0.015
+2024-05-28 18:03:56,535 15240 INFO ? werkzeug: 127.0.0.1 - - [28/May/2024 18:03:56] "GET /point_of_sale/static/src/img/touch-icon-196.png HTTP/1.1" 200 - 0 0.000 0.010
+2024-05-28 18:03:56,535 15240 INFO ? werkzeug: 127.0.0.1 - - [28/May/2024 18:03:56] "GET /point_of_sale/static/src/img/favicon.ico HTTP/1.1" 200 - 0 0.000 0.010
+2024-05-28 18:03:56,850 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:56] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.000 0.015
+2024-05-28 18:03:56,880 15240 INFO ? werkzeug: 127.0.0.1 - - [28/May/2024 18:03:56] "GET /point_of_sale/static/src/img/logo.png HTTP/1.1" 200 - 0 0.000 0.010
+2024-05-28 18:03:56,886 15240 INFO ? werkzeug: 127.0.0.1 - - [28/May/2024 18:03:56] "GET /web/static/fonts/lato/Lato-Reg-webfont.woff HTTP/1.1" 200 - 0 0.000 0.001
+2024-05-28 18:03:56,910 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:56] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.012
+2024-05-28 18:03:57,687 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:57] "POST /web/dataset/call_kw/pos.session/load_pos_data HTTP/1.1" 200 - 208 0.262 0.539
+2024-05-28 18:03:57,775 15240 INFO ? werkzeug: 127.0.0.1 - - [28/May/2024 18:03:57] "GET /point_of_sale/static/src/fonts/Inconsolata.otf HTTP/1.1" 200 - 0 0.000 0.015
+2024-05-28 18:03:57,787 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:57] "GET /web/image?model=res.company&id=1&field=logo HTTP/1.1" 200 - 10 0.005 0.012
+2024-05-28 18:03:57,815 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:57] "POST /web/dataset/call_kw/ir.model.data/check_object_reference HTTP/1.1" 200 - 3 0.005 0.000
+2024-05-28 18:03:57,850 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:57] "POST /web/dataset/call_kw/barcode.nomenclature/read HTTP/1.1" 200 - 5 0.010 0.005
+2024-05-28 18:03:57,887 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:57] "POST /web/dataset/call_kw/barcode.rule/search_read HTTP/1.1" 200 - 3 0.000 0.002
+2024-05-28 18:03:57,920 15240 INFO ? werkzeug: 127.0.0.1 - - [28/May/2024 18:03:57] "GET /point_of_sale/static/img/barcode.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-05-28 18:03:57,935 15240 INFO ? werkzeug: 127.0.0.1 - - [28/May/2024 18:03:57] "GET /point_of_sale/static/src/img/backspace.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-05-28 18:03:58,318 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=pos.category&field=image_128&id=1&unique=2023-10-01%2021:52:05 HTTP/1.1" 200 - 5 0.006 0.306
+2024-05-28 18:03:58,319 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=pos.category&field=image_128&id=17&unique=2024-01-05%2015:12:36 HTTP/1.1" 200 - 3 0.004 0.320
+2024-05-28 18:03:58,319 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=pos.category&field=image_128&id=18&unique=2024-01-05%2015:13:38 HTTP/1.1" 200 - 4 0.007 0.317
+2024-05-28 18:03:58,337 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=pos.category&field=image_128&id=14&unique=2023-10-01%2021:38:33 HTTP/1.1" 200 - 5 0.006 0.321
+2024-05-28 18:03:58,356 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=pos.category&field=image_128&id=4&unique=2023-10-01%2021:52:33 HTTP/1.1" 200 - 5 0.016 0.328
+2024-05-28 18:03:58,357 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=pos.category&field=image_128&id=15&unique=2023-10-01%2021:53:19 HTTP/1.1" 200 - 5 0.010 0.327
+2024-05-28 18:03:58,379 15240 INFO ? werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /pos_hr/static/img/login-bg-overlay.svg HTTP/1.1" 200 - 0 0.000 0.024
+2024-05-28 18:03:58,380 15240 INFO ? werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/static/fonts/lato/Lato-BolIta-webfont.woff HTTP/1.1" 200 - 0 0.000 0.028
+2024-05-28 18:03:58,392 15240 INFO ? werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/static/fonts/lato/Lato-Bol-webfont.woff HTTP/1.1" 200 - 0 0.000 0.046
+2024-05-28 18:03:58,395 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=pos.category&field=image_128&id=7&unique=2023-10-01%2021:44:57 HTTP/1.1" 200 - 5 0.013 0.022
+2024-05-28 18:03:58,408 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=pos.category&field=image_128&id=11&unique=2023-10-01%2021:45:49 HTTP/1.1" 200 - 5 0.007 0.025
+2024-05-28 18:03:58,414 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=pos.category&field=image_128&id=3&unique=2023-10-01%2021:46:41 HTTP/1.1" 200 - 5 0.007 0.030
+2024-05-28 18:03:58,457 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=pos.category&field=image_128&id=8&unique=2023-10-01%2021:47:13 HTTP/1.1" 200 - 5 0.008 0.022
+2024-05-28 18:03:58,462 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=pos.category&field=image_128&id=6&unique=2023-10-01%2021:47:48 HTTP/1.1" 200 - 5 0.008 0.024
+2024-05-28 18:03:58,484 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=pos.category&field=image_128&id=12&unique=2023-10-01%2021:49:30 HTTP/1.1" 200 - 5 0.016 0.022
+2024-05-28 18:03:58,491 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=pos.category&field=image_128&id=5&unique=2023-10-01%2021:48:27 HTTP/1.1" 200 - 5 0.012 0.037
+2024-05-28 18:03:58,504 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=pos.category&field=image_128&id=10&unique=2023-10-01%2021:50:09 HTTP/1.1" 200 - 5 0.009 0.046
+2024-05-28 18:03:58,530 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=pos.category&field=image_128&id=13&unique=2023-10-01%2021:50:32 HTTP/1.1" 200 - 5 0.004 0.068
+2024-05-28 18:03:58,546 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=pos.category&field=image_128&id=9&unique=2023-10-01%2021:51:07 HTTP/1.1" 200 - 5 0.008 0.031
+2024-05-28 18:03:58,563 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=pos.category&field=image_128&id=2&unique=2023-10-01%2021:51:39 HTTP/1.1" 200 - 5 0.004 0.041
+2024-05-28 18:03:58,590 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=pos.category&field=image_128&id=16&unique=2023-12-03%2015:03:41 HTTP/1.1" 200 - 3 0.016 0.050
+2024-05-28 18:03:58,657 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=product.product&field=image_128&id=63&unique=2023-09-21%2001:32:56 HTTP/1.1" 200 - 12 0.026 0.086
+2024-05-28 18:03:58,661 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=product.product&field=image_128&id=11&unique=2023-09-21%2000:18:49 HTTP/1.1" 200 - 7 0.073 0.061
+2024-05-28 18:03:58,664 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=product.product&field=image_128&id=61&unique=2023-09-21%2001:31:31 HTTP/1.1" 200 - 7 0.069 0.065
+2024-05-28 18:03:58,684 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=product.product&field=image_128&id=65&unique=2023-09-21%2001:34:36 HTTP/1.1" 200 - 6 0.032 0.048
+2024-05-28 18:03:58,707 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=product.product&field=image_128&id=64&unique=2023-09-21%2001:33:38 HTTP/1.1" 200 - 6 0.037 0.057
+2024-05-28 18:03:58,725 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=product.product&field=image_128&id=98&unique=2023-11-09%2017:52:10 HTTP/1.1" 200 - 6 0.025 0.059
+2024-05-28 18:03:58,752 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=product.product&field=image_128&id=106&unique=2024-01-05%2015:16:13 HTTP/1.1" 200 - 6 0.010 0.032
+2024-05-28 18:03:58,784 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=product.product&field=image_128&id=108&unique=2024-01-05%2015:17:45 HTTP/1.1" 200 - 6 0.012 0.048
+2024-05-28 18:03:58,787 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=product.product&field=image_128&id=84&unique=2023-10-12%2008:18:06 HTTP/1.1" 200 - 6 0.017 0.042
+2024-05-28 18:03:58,797 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=product.product&field=image_128&id=72&unique=2023-09-21%2002:45:51 HTTP/1.1" 200 - 6 0.020 0.038
+2024-05-28 18:03:58,819 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=product.product&field=image_128&id=73&unique=2023-10-12%2011:59:48 HTTP/1.1" 200 - 6 0.015 0.059
+2024-05-28 18:03:58,820 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=product.product&field=image_128&id=77&unique=2023-09-27%2012:43:59 HTTP/1.1" 200 - 6 0.015 0.041
+2024-05-28 18:03:58,821 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=product.product&field=image_128&id=76&unique=2023-09-27%2012:43:21 HTTP/1.1" 200 - 6 0.015 0.035
+2024-05-28 18:03:58,858 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=product.product&field=image_128&id=74&unique=2023-11-22%2013:31:49 HTTP/1.1" 200 - 6 0.017 0.030
+2024-05-28 18:03:58,859 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=product.product&field=image_128&id=78&unique=2023-09-27%2012:45:21 HTTP/1.1" 200 - 6 0.009 0.049
+2024-05-28 18:03:58,871 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=product.product&field=image_128&id=83&unique=2024-01-22%2021:31:33 HTTP/1.1" 200 - 6 0.018 0.047
+2024-05-28 18:03:58,891 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=product.product&field=image_128&id=105&unique=2024-01-22%2021:31:16 HTTP/1.1" 200 - 6 0.015 0.038
+2024-05-28 18:03:58,895 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=product.product&field=image_128&id=71&unique=2024-02-12%2023:46:04 HTTP/1.1" 200 - 6 0.015 0.039
+2024-05-28 18:03:58,902 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=product.product&field=image_128&id=87&unique=2024-01-22%2021:30:31 HTTP/1.1" 200 - 6 0.017 0.038
+2024-05-28 18:03:58,930 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=product.product&field=image_128&id=91&unique=2023-10-26%2015:30:14 HTTP/1.1" 200 - 6 0.016 0.032
+2024-05-28 18:03:58,932 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=product.product&field=image_128&id=18&unique=2023-09-21%2000:29:59 HTTP/1.1" 200 - 6 0.010 0.041
+2024-05-28 18:03:58,957 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=product.product&field=image_128&id=14&unique=2023-09-21%2000:22:34 HTTP/1.1" 200 - 6 0.010 0.059
+2024-05-28 18:03:58,963 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=product.product&field=image_128&id=30&unique=2023-09-21%2001:01:49 HTTP/1.1" 200 - 6 0.018 0.034
+2024-05-28 18:03:58,964 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=product.product&field=image_128&id=12&unique=2023-09-21%2000:20:14 HTTP/1.1" 200 - 6 0.010 0.036
+2024-05-28 18:03:58,974 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=product.product&field=image_128&id=10&unique=2023-09-21%2000:16:55 HTTP/1.1" 200 - 6 0.019 0.038
+2024-05-28 18:03:58,986 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=product.product&field=image_128&id=85&unique=2023-10-12%2023:55:21 HTTP/1.1" 200 - 6 0.012 0.030
+2024-05-28 18:03:58,992 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:58] "GET /web/image?model=product.product&field=image_128&id=42&unique=2023-09-21%2001:15:13 HTTP/1.1" 200 - 6 0.013 0.029
+2024-05-28 18:03:59,026 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=41&unique=2023-09-21%2001:14:51 HTTP/1.1" 200 - 6 0.010 0.028
+2024-05-28 18:03:59,046 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=43&unique=2023-09-21%2001:15:43 HTTP/1.1" 200 - 6 0.009 0.044
+2024-05-28 18:03:59,046 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=45&unique=2023-09-21%2001:17:28 HTTP/1.1" 200 - 6 0.013 0.039
+2024-05-28 18:03:59,052 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=59&unique=2023-09-21%2001:29:42 HTTP/1.1" 200 - 6 0.017 0.032
+2024-05-28 18:03:59,054 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=99&unique=2023-11-17%2006:47:33 HTTP/1.1" 200 - 6 0.014 0.034
+2024-05-28 18:03:59,055 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=44&unique=2023-09-21%2001:16:43 HTTP/1.1" 200 - 6 0.017 0.038
+2024-05-28 18:03:59,087 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=24&unique=2023-09-21%2000:52:26 HTTP/1.1" 200 - 6 0.004 0.042
+2024-05-28 18:03:59,116 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=26&unique=2023-09-21%2000:54:18 HTTP/1.1" 200 - 6 0.013 0.032
+2024-05-28 18:03:59,117 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=25&unique=2023-09-21%2000:53:23 HTTP/1.1" 200 - 6 0.015 0.023
+2024-05-28 18:03:59,138 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=82&unique=2023-09-30%2016:50:57 HTTP/1.1" 200 - 6 0.012 0.043
+2024-05-28 18:03:59,143 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=46&unique=2023-09-21%2001:18:16 HTTP/1.1" 200 - 6 0.014 0.030
+2024-05-28 18:03:59,144 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=48&unique=2023-09-21%2001:19:35 HTTP/1.1" 200 - 6 0.018 0.036
+2024-05-28 18:03:59,156 15240 INFO ? werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/static/img/openhand.cur HTTP/1.1" 200 - 0 0.000 0.051
+2024-05-28 18:03:59,192 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=31&unique=2023-09-21%2001:02:36 HTTP/1.1" 200 - 6 0.015 0.042
+2024-05-28 18:03:59,195 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=33&unique=2023-09-21%2001:04:30 HTTP/1.1" 200 - 6 0.015 0.034
+2024-05-28 18:03:59,204 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=47&unique=2023-09-21%2001:19:05 HTTP/1.1" 200 - 6 0.014 0.057
+2024-05-28 18:03:59,212 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=39&unique=2023-09-21%2001:12:33 HTTP/1.1" 200 - 6 0.008 0.048
+2024-05-28 18:03:59,216 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=38&unique=2023-09-21%2001:11:41 HTTP/1.1" 200 - 6 0.019 0.032
+2024-05-28 18:03:59,230 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=34&unique=2023-09-21%2001:06:04 HTTP/1.1" 200 - 6 0.015 0.041
+2024-05-28 18:03:59,261 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=32&unique=2023-09-21%2001:03:19 HTTP/1.1" 200 - 6 0.010 0.046
+2024-05-28 18:03:59,262 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=96&unique=2023-11-01%2015:57:14 HTTP/1.1" 200 - 6 0.017 0.032
+2024-05-28 18:03:59,279 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=35&unique=2023-09-21%2001:06:57 HTTP/1.1" 200 - 6 0.005 0.043
+2024-05-28 18:03:59,288 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=37&unique=2023-09-21%2001:09:00 HTTP/1.1" 200 - 6 0.015 0.048
+2024-05-28 18:03:59,302 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=40&unique=2023-09-21%2001:13:51 HTTP/1.1" 200 - 6 0.013 0.048
+2024-05-28 18:03:59,322 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=36&unique=2023-09-21%2001:07:48 HTTP/1.1" 200 - 6 0.012 0.066
+2024-05-28 18:03:59,341 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=15&unique=2023-09-21%2000:24:22 HTTP/1.1" 200 - 6 0.016 0.035
+2024-05-28 18:03:59,343 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=13&unique=2023-09-21%2000:21:12 HTTP/1.1" 200 - 6 0.016 0.038
+2024-05-28 18:03:59,344 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=16&unique=2023-09-21%2000:25:06 HTTP/1.1" 200 - 6 0.016 0.036
+2024-05-28 18:03:59,347 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=17&unique=2023-09-21%2000:26:43 HTTP/1.1" 200 - 6 0.016 0.033
+2024-05-28 18:03:59,372 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=97&unique=2023-11-01%2015:58:18 HTTP/1.1" 200 - 6 0.012 0.039
+2024-05-28 18:03:59,393 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=23&unique=2023-09-21%2000:49:44 HTTP/1.1" 200 - 6 0.008 0.051
+2024-05-28 18:03:59,401 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=90&unique=2023-10-15%2017:53:12 HTTP/1.1" 200 - 6 0.011 0.023
+2024-05-28 18:03:59,412 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=68&unique=2023-09-21%2001:36:44 HTTP/1.1" 200 - 6 0.011 0.031
+2024-05-28 18:03:59,435 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=69&unique=2023-09-21%2001:37:29 HTTP/1.1" 200 - 6 0.011 0.047
+2024-05-28 18:03:59,436 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=66&unique=2023-09-21%2001:35:09 HTTP/1.1" 200 - 6 0.018 0.035
+2024-05-28 18:03:59,438 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=67&unique=2023-09-21%2001:36:09 HTTP/1.1" 200 - 6 0.012 0.052
+2024-05-28 18:03:59,467 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=58&unique=2023-09-21%2001:28:31 HTTP/1.1" 200 - 6 0.012 0.032
+2024-05-28 18:03:59,468 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=56&unique=2023-09-21%2001:26:33 HTTP/1.1" 200 - 6 0.018 0.039
+2024-05-28 18:03:59,477 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=57&unique=2023-09-21%2001:27:26 HTTP/1.1" 200 - 6 0.009 0.040
+2024-05-28 18:03:59,492 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=55&unique=2023-09-22%2017:01:10 HTTP/1.1" 200 - 6 0.007 0.031
+2024-05-28 18:03:59,503 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=21&unique=2023-09-21%2000:37:41 HTTP/1.1" 200 - 6 0.010 0.038
+2024-05-28 18:03:59,506 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=60&unique=2023-09-21%2001:30:17 HTTP/1.1" 200 - 6 0.013 0.034
+2024-05-28 18:03:59,536 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=92&unique=2023-10-28%2022:07:58 HTTP/1.1" 200 - 6 0.013 0.038
+2024-05-28 18:03:59,544 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=95&unique=2023-10-29%2018:12:45 HTTP/1.1" 200 - 6 0.016 0.043
+2024-05-28 18:03:59,548 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=93&unique=2023-10-28%2022:08:29 HTTP/1.1" 200 - 6 0.015 0.041
+2024-05-28 18:03:59,563 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=94&unique=2023-10-28%2022:10:15 HTTP/1.1" 200 - 6 0.011 0.049
+2024-05-28 18:03:59,574 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=19&unique=2023-09-21%2000:32:50 HTTP/1.1" 200 - 6 0.013 0.043
+2024-05-28 18:03:59,577 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=104&unique=2023-12-09%2016:28:46 HTTP/1.1" 200 - 6 0.007 0.042
+2024-05-28 18:03:59,618 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=88&unique=2023-10-26%2021:16:49 HTTP/1.1" 200 - 6 0.011 0.034
+2024-05-28 18:03:59,621 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=75&unique=2023-10-12%2023:57:27 HTTP/1.1" 200 - 6 0.016 0.031
+2024-05-28 18:03:59,624 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=109&unique=2024-02-16%2020:36:12 HTTP/1.1" 200 - 6 0.010 0.044
+2024-05-28 18:03:59,654 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=54&unique=2023-09-21%2001:25:13 HTTP/1.1" 200 - 6 0.011 0.041
+2024-05-28 18:03:59,668 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=53&unique=2023-09-21%2001:24:32 HTTP/1.1" 200 - 6 0.013 0.063
+2024-05-28 18:03:59,673 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=49&unique=2023-09-21%2001:21:15 HTTP/1.1" 200 - 6 0.011 0.036
+2024-05-28 18:03:59,684 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=50&unique=2023-09-21%2001:21:57 HTTP/1.1" 200 - 6 0.010 0.035
+2024-05-28 18:03:59,714 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=51&unique=2023-09-21%2001:22:31 HTTP/1.1" 200 - 6 0.009 0.051
+2024-05-28 18:03:59,732 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=52&unique=2023-09-21%2001:23:38 HTTP/1.1" 200 - 6 0.019 0.069
+2024-05-28 18:03:59,735 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=29&unique=2023-09-21%2001:01:20 HTTP/1.1" 200 - 6 0.013 0.053
+2024-05-28 18:03:59,743 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=20&unique=2023-09-21%2000:36:32 HTTP/1.1" 200 - 6 0.012 0.046
+2024-05-28 18:03:59,750 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=62&unique=2023-09-21%2001:32:07 HTTP/1.1" 200 - 6 0.012 0.045
+2024-05-28 18:03:59,752 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=101&unique=2023-11-25%2017:33:51 HTTP/1.1" 200 - 6 0.012 0.038
+2024-05-28 18:03:59,787 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=100&unique=2023-11-22%2013:31:27 HTTP/1.1" 200 - 6 0.007 0.047
+2024-05-28 18:03:59,805 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=102&unique=2023-11-25%2017:34:32 HTTP/1.1" 200 - 6 0.011 0.044
+2024-05-28 18:03:59,829 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=22&unique=2023-09-21%2000:39:29 HTTP/1.1" 200 - 6 0.013 0.054
+2024-05-28 18:03:59,834 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=79&unique=2023-10-13%2014:38:34 HTTP/1.1" 200 - 6 0.014 0.053
+2024-05-28 18:03:59,839 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=107&unique=2024-01-05%2015:16:56 HTTP/1.1" 200 - 6 0.014 0.050
+2024-05-28 18:03:59,848 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=89&unique=2023-10-15%2017:36:54 HTTP/1.1" 200 - 6 0.013 0.062
+2024-05-28 18:03:59,862 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=103&unique=2023-12-05%2018:22:42 HTTP/1.1" 200 - 6 0.010 0.048
+2024-05-28 18:03:59,884 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=70&unique=2023-09-21%2002:42:18 HTTP/1.1" 200 - 6 0.009 0.053
+2024-05-28 18:03:59,894 15240 INFO ? werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /point_of_sale/static/src/img/bc-arrow-big.png HTTP/1.1" 200 - 0 0.000 0.025
+2024-05-28 18:03:59,896 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=27&unique=2023-09-21%2000:55:33 HTTP/1.1" 200 - 6 0.010 0.025
+2024-05-28 18:03:59,899 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:03:59] "GET /web/image?model=product.product&field=image_128&id=28&unique=2023-11-05%2009:17:58 HTTP/1.1" 200 - 6 0.009 0.023
+2024-05-28 18:04:00,648 15240 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:04:00] "GET /web/image/hr.employee.public/2/avatar_128 HTTP/1.1" 200 - 14 0.023 0.011
+2024-05-28 18:09:21,711 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-28 18:09:21,721 15240 INFO blank odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-28 18:19:10,979 15240 INFO blank odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-28 18:19:10,979 15240 INFO blank odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-28 18:26:54,374 15240 INFO ? odoo.service.server: Initiating shutdown 
+2024-05-28 18:26:54,383 15240 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-05-28 18:26:54,963 15240 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 9 connections  
+2024-05-28 18:26:58,667 13048 INFO ? odoo: Odoo version 16.0 
+2024-05-28 18:26:58,668 13048 INFO ? odoo: Using configuration file at C:\Users\baana\Desktop\odoo\odoo-blankcoffee\odoo.conf 
+2024-05-28 18:26:58,668 13048 INFO ? odoo: addons paths: ['C:\\Users\\baana\\Desktop\\odoo\\odoo-blankcoffee\\odoo\\addons', 'c:\\users\\baana\\appdata\\local\\openerp s.a\\odoo\\addons\\16.0', 'c:\\users\\baana\\desktop\\odoo\\odoo-blankcoffee\\addons', 'c:\\users\\baana\\desktop\\odoo\\odoo-blankcoffee\\odoo\\addons'] 
+2024-05-28 18:26:58,668 13048 INFO ? odoo: database: odoo@localhost:5432 
+2024-05-28 18:26:58,878 13048 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2024-05-28 18:27:00,044 13048 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-5G8JKV7:8069 
+2024-05-28 18:27:03,380 13048 INFO blank odoo.modules.loading: loading 1 modules... 
+2024-05-28 18:27:03,385 13048 INFO blank odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2024-05-28 18:27:03,493 13048 INFO blank odoo.modules.loading: loading 82 modules... 
+2024-05-28 18:27:04,513 13048 INFO blank odoo.modules.loading: 82 modules loaded in 1.02s, 0 queries (+0 extra) 
+2024-05-28 18:27:04,668 13048 INFO blank odoo.modules.loading: Modules loaded. 
+2024-05-28 18:27:04,673 13048 INFO blank odoo.modules.registry: Registry loaded in 1.351s 
+2024-05-28 18:27:04,676 13048 INFO blank odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-05-28 18:27:04,898 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:27:04] "GET /websocket HTTP/1.1" 101 - 22 0.023 1.554
+2024-05-28 18:27:04,913 13048 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-05-28 18:27:15,823 13048 INFO blank odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-05-28 18:27:15,873 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:27:15] "GET /pos/ui?config_id=1 HTTP/1.1" 200 - 142 0.170 4.130
+2024-05-28 18:27:16,938 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:27:16] "GET /web/assets/225-cfd3abe/point_of_sale.assets.min.js HTTP/1.1" 200 - 9 0.010 0.960
+2024-05-28 18:27:16,938 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:27:16] "GET /web/assets/224-cfd3abe/point_of_sale.assets.min.css HTTP/1.1" 200 - 5 0.015 1.000
+2024-05-28 18:27:17,573 13048 INFO ? werkzeug: 127.0.0.1 - - [28/May/2024 18:27:17] "GET /point_of_sale/static/src/img/touch-icon-196.png HTTP/1.1" 200 - 0 0.000 0.000
+2024-05-28 18:27:17,573 13048 INFO ? werkzeug: 127.0.0.1 - - [28/May/2024 18:27:17] "GET /point_of_sale/static/src/img/favicon.ico HTTP/1.1" 200 - 0 0.000 0.000
+2024-05-28 18:27:17,908 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:27:17] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.010 0.020
+2024-05-28 18:27:17,938 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:27:17] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.010
+2024-05-28 18:27:18,458 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:27:18] "POST /web/dataset/call_kw/pos.session/load_pos_data HTTP/1.1" 200 - 208 0.246 0.324
+2024-05-28 18:27:18,523 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:27:18] "GET /web/image?model=res.company&id=1&field=logo HTTP/1.1" 200 - 10 0.010 0.015
+2024-05-28 18:27:18,548 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:27:18] "POST /web/dataset/call_kw/ir.model.data/check_object_reference HTTP/1.1" 200 - 3 0.000 0.005
+2024-05-28 18:27:18,573 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:27:18] "POST /web/dataset/call_kw/barcode.nomenclature/read HTTP/1.1" 200 - 5 0.005 0.005
+2024-05-28 18:27:18,603 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:27:18] "POST /web/dataset/call_kw/barcode.rule/search_read HTTP/1.1" 200 - 3 0.000 0.010
+2024-05-28 18:27:21,118 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:27:21] "GET /web/image/hr.employee.public/2/avatar_128 HTTP/1.1" 200 - 14 0.025 0.000
+2024-05-28 18:27:39,523 13048 INFO blank odoo.http: Session expired 
+2024-05-28 18:27:39,523 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:27:39] "GET /pos/ui?config_id=1 HTTP/1.1" 303 - 2 0.005 0.155
+2024-05-28 18:27:39,523 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:27:39] "GET /web/webclient/locale/en_US HTTP/1.1" 200 - 2 0.000 0.155
+2024-05-28 18:27:41,223 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:27:41] "GET /web/login?redirect=%2Fpos%2Fui%3Fconfig_id%3D1 HTTP/1.1" 200 - 56 0.052 1.264
+2024-05-28 18:28:54,423 13048 INFO blank odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-05-28 18:28:54,423 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:28:54] "GET /pos/ui?config_id=1 HTTP/1.1" 200 - 133 0.125 3.428
+2024-05-28 18:28:54,513 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:28:54] "GET /web/assets/226-84186e6/point_of_sale.assets.min.css HTTP/1.1" 200 - 9 0.010 0.019
+2024-05-28 18:28:54,513 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:28:54] "GET /web/assets/227-84186e6/point_of_sale.assets.min.js HTTP/1.1" 200 - 4 0.005 0.005
+2024-05-28 18:28:55,563 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:28:55] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.010 0.010
+2024-05-28 18:28:55,608 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:28:55] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.010
+2024-05-28 18:28:56,148 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:28:56] "POST /web/dataset/call_kw/pos.session/load_pos_data HTTP/1.1" 200 - 208 0.267 0.338
+2024-05-28 18:28:56,198 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:28:56] "GET /web/image?model=res.company&id=1&field=logo HTTP/1.1" 200 - 10 0.005 0.010
+2024-05-28 18:28:56,223 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:28:56] "POST /web/dataset/call_kw/ir.model.data/check_object_reference HTTP/1.1" 200 - 3 0.005 0.000
+2024-05-28 18:28:56,253 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:28:56] "POST /web/dataset/call_kw/barcode.nomenclature/read HTTP/1.1" 200 - 5 0.005 0.005
+2024-05-28 18:28:56,283 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:28:56] "POST /web/dataset/call_kw/barcode.rule/search_read HTTP/1.1" 200 - 3 0.000 0.005
+2024-05-28 18:28:58,363 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:28:58] "GET /web/image/hr.employee.public/2/avatar_128 HTTP/1.1" 200 - 14 0.010 0.010
+2024-05-28 18:29:59,242 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-28 18:29:59,242 13048 INFO blank odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-28 18:39:11,511 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-28 18:39:11,521 13048 INFO blank odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-28 18:39:47,406 13048 INFO blank odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-05-28 18:39:47,406 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:39:47] "GET /pos/ui?config_id=1 HTTP/1.1" 200 - 135 0.530 5.880
+2024-05-28 18:39:47,546 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:39:47] "GET /web/assets/229-a00d154/point_of_sale.assets.min.js HTTP/1.1" 200 - 9 0.005 0.010
+2024-05-28 18:39:47,596 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:39:47] "GET /web/assets/228-a00d154/point_of_sale.assets.min.css HTTP/1.1" 200 - 5 0.105 0.005
+2024-05-28 18:39:48,871 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:39:48] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.115 0.080
+2024-05-28 18:39:48,931 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:39:48] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.015
+2024-05-28 18:39:49,570 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:39:49] "POST /web/dataset/call_kw/pos.session/load_pos_data HTTP/1.1" 200 - 208 0.262 0.633
+2024-05-28 18:39:49,636 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:39:49] "GET /web/image?model=res.company&id=1&field=logo HTTP/1.1" 200 - 10 0.010 0.010
+2024-05-28 18:39:49,686 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:39:49] "POST /web/dataset/call_kw/ir.model.data/check_object_reference HTTP/1.1" 200 - 3 0.025 0.005
+2024-05-28 18:39:49,716 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:39:49] "POST /web/dataset/call_kw/barcode.nomenclature/read HTTP/1.1" 200 - 5 0.000 0.005
+2024-05-28 18:39:49,746 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:39:49] "POST /web/dataset/call_kw/barcode.rule/search_read HTTP/1.1" 200 - 3 0.000 0.010
+2024-05-28 18:39:52,181 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:39:52] "GET /web/image/hr.employee.public/2/avatar_128 HTTP/1.1" 200 - 14 0.114 0.016
+2024-05-28 18:48:34,201 13048 INFO blank odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-05-28 18:48:34,201 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:48:34] "GET /pos/ui?config_id=1 HTTP/1.1" 200 - 135 0.316 3.878
+2024-05-28 18:48:34,326 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:48:34] "GET /web/assets/230-76efd14/point_of_sale.assets.min.css HTTP/1.1" 200 - 9 0.010 0.005
+2024-05-28 18:48:34,326 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:48:34] "GET /web/assets/231-76efd14/point_of_sale.assets.min.js HTTP/1.1" 200 - 9 0.005 0.010
+2024-05-28 18:48:35,141 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:48:35] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.000 0.020
+2024-05-28 18:48:35,166 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:48:35] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.005
+2024-05-28 18:48:36,246 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:48:36] "POST /web/dataset/call_kw/pos.session/load_pos_data HTTP/1.1" 200 - 208 0.708 0.447
+2024-05-28 18:48:36,286 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:48:36] "GET /web/image?model=res.company&id=1&field=logo HTTP/1.1" 200 - 10 0.005 0.010
+2024-05-28 18:48:36,306 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:48:36] "POST /web/dataset/call_kw/ir.model.data/check_object_reference HTTP/1.1" 200 - 3 0.005 0.000
+2024-05-28 18:48:36,331 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:48:36] "POST /web/dataset/call_kw/barcode.nomenclature/read HTTP/1.1" 200 - 5 0.010 0.000
+2024-05-28 18:48:36,356 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:48:36] "POST /web/dataset/call_kw/barcode.rule/search_read HTTP/1.1" 200 - 3 0.005 0.000
+2024-05-28 18:48:39,282 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:48:39] "GET /web/image/hr.employee.public/2/avatar_128 HTTP/1.1" 200 - 14 0.016 0.004
+2024-05-28 18:48:53,121 13048 INFO blank odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-05-28 18:48:53,121 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:48:53] "GET /pos/ui?config_id=1 HTTP/1.1" 200 - 135 0.065 4.330
+2024-05-28 18:48:53,231 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:48:53] "GET /web/assets/232-31b18f4/point_of_sale.assets.min.css HTTP/1.1" 200 - 9 0.010 0.010
+2024-05-28 18:48:53,236 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:48:53] "GET /web/assets/233-31b18f4/point_of_sale.assets.min.js HTTP/1.1" 200 - 7 0.005 0.015
+2024-05-28 18:48:54,181 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:48:54] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.000 0.037
+2024-05-28 18:48:54,221 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:48:54] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.015
+2024-05-28 18:48:54,756 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:48:54] "POST /web/dataset/call_kw/pos.session/load_pos_data HTTP/1.1" 200 - 208 0.254 0.381
+2024-05-28 18:48:54,801 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:48:54] "GET /web/image?model=res.company&id=1&field=logo HTTP/1.1" 200 - 10 0.000 0.010
+2024-05-28 18:48:54,826 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:48:54] "POST /web/dataset/call_kw/ir.model.data/check_object_reference HTTP/1.1" 200 - 3 0.000 0.005
+2024-05-28 18:48:54,851 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:48:54] "POST /web/dataset/call_kw/barcode.nomenclature/read HTTP/1.1" 200 - 5 0.006 0.000
+2024-05-28 18:48:54,876 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:48:54] "POST /web/dataset/call_kw/barcode.rule/search_read HTTP/1.1" 200 - 3 0.000 0.000
+2024-05-28 18:48:57,681 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:48:57] "GET /web/image/hr.employee.public/2/avatar_128 HTTP/1.1" 200 - 14 0.009 0.011
+2024-05-28 18:48:59,462 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-05-28 18:48:59,481 13048 INFO blank odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-05-28 18:48:59,481 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-05-28 18:48:59,501 13048 INFO blank odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-05-28 18:49:21,811 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-05-28 18:49:21,821 13048 INFO blank odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-05-28 18:49:21,836 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-05-28 18:49:21,841 13048 INFO blank odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-05-28 18:49:21,841 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-05-28 18:49:21,861 13048 INFO blank odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-05-28 18:49:21,866 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-28 18:49:21,871 13048 INFO blank odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-28 18:51:52,851 13048 INFO blank odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-05-28 18:51:52,851 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:51:52] "GET /pos/ui?config_id=1 HTTP/1.1" 200 - 135 0.087 3.547
+2024-05-28 18:51:52,946 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:51:52] "GET /web/assets/234-45b42f1/point_of_sale.assets.min.css HTTP/1.1" 200 - 9 0.015 0.005
+2024-05-28 18:51:52,946 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:51:52] "GET /web/assets/235-45b42f1/point_of_sale.assets.min.js HTTP/1.1" 200 - 7 0.015 0.005
+2024-05-28 18:51:53,881 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:51:53] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.000 0.010
+2024-05-28 18:51:53,991 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:51:53] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.010
+2024-05-28 18:51:54,602 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:51:54] "POST /web/dataset/call_kw/pos.session/load_pos_data HTTP/1.1" 200 - 208 0.206 0.459
+2024-05-28 18:51:54,686 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:51:54] "GET /web/image?model=res.company&id=1&field=logo HTTP/1.1" 200 - 10 0.010 0.015
+2024-05-28 18:51:54,721 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:51:54] "POST /web/dataset/call_kw/ir.model.data/check_object_reference HTTP/1.1" 200 - 3 0.000 0.010
+2024-05-28 18:51:54,751 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:51:54] "POST /web/dataset/call_kw/barcode.nomenclature/read HTTP/1.1" 200 - 5 0.000 0.005
+2024-05-28 18:51:54,781 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:51:54] "POST /web/dataset/call_kw/barcode.rule/search_read HTTP/1.1" 200 - 3 0.000 0.000
+2024-05-28 18:51:56,895 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 18:51:56] "GET /web/image/hr.employee.public/2/avatar_128 HTTP/1.1" 200 - 14 0.008 0.015
+2024-05-28 18:59:32,155 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-28 18:59:32,155 13048 INFO blank odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-28 19:09:42,384 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-28 19:09:42,384 13048 INFO blank odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-28 19:19:52,643 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-28 19:19:52,643 13048 INFO blank odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-28 19:29:59,948 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-28 19:29:59,948 13048 INFO blank odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-28 19:39:12,114 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-28 19:39:12,114 13048 INFO blank odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-28 19:49:00,128 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-05-28 19:49:00,128 13048 INFO blank odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-05-28 19:49:00,144 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-05-28 19:49:00,144 13048 INFO blank odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-05-28 19:49:22,374 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-28 19:49:22,374 13048 INFO blank odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-28 19:49:22,389 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-05-28 19:49:22,389 13048 INFO blank odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-05-28 19:49:22,389 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-05-28 19:49:22,389 13048 INFO blank odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-05-28 19:49:22,405 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-05-28 19:49:22,405 13048 INFO blank odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-05-28 19:59:32,651 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-28 19:59:32,651 13048 INFO blank odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-28 20:09:42,920 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-28 20:09:42,920 13048 INFO blank odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-28 20:17:39,860 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 20:17:39] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.000
+2024-05-28 20:19:53,207 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-28 20:19:53,207 13048 INFO blank odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-28 20:30:00,414 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-28 20:30:00,414 13048 INFO blank odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-28 20:39:12,692 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-28 20:39:12,692 13048 INFO blank odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-28 20:47:00,564 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2024-05-28 20:47:00,610 13048 INFO blank odoo.addons.base.models.ir_attachment: filestore gc 27 checked, 13 removed 
+2024-05-28 20:47:00,748 13048 INFO blank odoo.addons.base.models.res_users: GC'd 1 user log entries 
+2024-05-28 20:47:00,833 13048 INFO blank odoo.addons.auth_totp.models.auth_totp: GC'd 0 totp devices entries 
+2024-05-28 20:47:00,864 13048 INFO blank odoo.models.unlink: User #1 deleted bus.bus records with IDs: [6594, 6595, 6596, 6597, 6598, 6599] 
+2024-05-28 20:47:01,428 13048 INFO blank odoo.addons.base.models.ir_cron: Job `Base: Auto-vacuum internal data` done. 
+2024-05-28 20:49:01,454 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `Notification: Delete Notifications older than 6 Month`. 
+2024-05-28 20:49:01,486 13048 INFO blank odoo.addons.base.models.ir_cron: Job `Notification: Delete Notifications older than 6 Month` done. 
+2024-05-28 20:49:01,501 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `Users: Notify About Unregistered Users`. 
+2024-05-28 20:49:01,508 13048 INFO blank odoo.addons.base.models.ir_cron: Job `Users: Notify About Unregistered Users` done. 
+2024-05-28 20:49:01,523 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-05-28 20:49:01,523 13048 INFO blank odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-05-28 20:49:01,523 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-05-28 20:49:01,523 13048 INFO blank odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-05-28 20:49:22,976 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-05-28 20:49:22,976 13048 INFO blank odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-05-28 20:49:22,992 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-05-28 20:49:22,992 13048 INFO blank odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-05-28 20:49:22,999 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-05-28 20:49:22,999 13048 INFO blank odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-05-28 20:49:23,014 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-28 20:49:23,018 13048 INFO blank odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-28 20:51:01,564 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `Procurement: run scheduler`. 
+2024-05-28 20:51:01,626 13048 INFO blank odoo.addons.stock.models.stock_rule: _run_scheduler_tasks is finished and committed 
+2024-05-28 20:51:01,642 13048 INFO blank odoo.addons.base.models.ir_cron: Job `Procurement: run scheduler` done. 
+2024-05-28 20:53:01,662 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `Purchase reminder`. 
+2024-05-28 20:53:01,662 13048 INFO blank odoo.addons.base.models.ir_cron: Job `Purchase reminder` done. 
+2024-05-28 20:59:33,272 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-28 20:59:33,287 13048 INFO blank odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-28 21:09:43,539 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-28 21:09:43,539 13048 INFO blank odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-28 21:19:53,786 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-28 21:19:53,786 13048 INFO blank odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-28 21:30:02,002 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-28 21:30:02,002 13048 INFO blank odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-28 21:39:13,309 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-28 21:39:13,309 13048 INFO blank odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-28 21:40:13,401 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 21:40:13] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.000
+2024-05-28 21:49:02,177 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-05-28 21:49:02,177 13048 INFO blank odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-05-28 21:49:02,192 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-05-28 21:49:02,192 13048 INFO blank odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-05-28 21:49:23,539 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-28 21:49:23,542 13048 INFO blank odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-28 21:49:23,550 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-05-28 21:49:23,550 13048 INFO blank odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-05-28 21:49:23,560 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-05-28 21:49:23,560 13048 INFO blank odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-05-28 21:49:23,573 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-05-28 21:49:23,576 13048 INFO blank odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-05-28 21:59:33,863 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-28 21:59:33,863 13048 INFO blank odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-28 22:09:44,170 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-28 22:09:44,180 13048 INFO blank odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-28 22:17:38,295 13048 INFO blank odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-05-28 22:17:38,295 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:17:38] "GET /pos/ui?config_id=1 HTTP/1.1" 200 - 134 0.096 3.534
+2024-05-28 22:17:38,400 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:17:38] "GET /web/assets/236-5c932dd/point_of_sale.assets.min.css HTTP/1.1" 200 - 9 0.006 0.014
+2024-05-28 22:17:38,400 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:17:38] "GET /web/assets/237-5c932dd/point_of_sale.assets.min.js HTTP/1.1" 200 - 7 0.007 0.005
+2024-05-28 22:17:39,255 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:17:39] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.000 0.025
+2024-05-28 22:17:39,310 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:17:39] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.010
+2024-05-28 22:17:39,840 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:17:39] "POST /web/dataset/call_kw/pos.session/load_pos_data HTTP/1.1" 200 - 208 0.157 0.398
+2024-05-28 22:17:39,930 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:17:39] "GET /web/image?model=res.company&id=1&field=logo HTTP/1.1" 200 - 10 0.005 0.015
+2024-05-28 22:17:39,960 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:17:39] "POST /web/dataset/call_kw/ir.model.data/check_object_reference HTTP/1.1" 200 - 3 0.000 0.010
+2024-05-28 22:17:39,990 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:17:39] "POST /web/dataset/call_kw/barcode.nomenclature/read HTTP/1.1" 200 - 5 0.005 0.005
+2024-05-28 22:17:40,015 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:17:40] "POST /web/dataset/call_kw/barcode.rule/search_read HTTP/1.1" 200 - 3 0.000 0.000
+2024-05-28 22:17:42,260 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:17:42] "GET /web/image/hr.employee.public/2/avatar_128 HTTP/1.1" 200 - 14 0.014 0.016
+2024-05-28 22:18:20,230 13048 INFO blank odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-05-28 22:18:20,230 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:18:20] "GET /pos/ui?config_id=1 HTTP/1.1" 200 - 135 0.074 3.689
+2024-05-28 22:18:20,345 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:18:20] "GET /web/assets/238-b1c2b06/point_of_sale.assets.min.css HTTP/1.1" 200 - 9 0.005 0.010
+2024-05-28 22:18:20,364 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:18:20] "GET /web/assets/239-b1c2b06/point_of_sale.assets.min.js HTTP/1.1" 200 - 4 0.004 0.005
+2024-05-28 22:18:21,275 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:18:21] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.000 0.045
+2024-05-28 22:18:21,350 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:18:21] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.040
+2024-05-28 22:18:21,745 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:18:21] "POST /web/dataset/call_kw/pos.session/load_pos_data HTTP/1.1" 200 - 208 0.214 0.320
+2024-05-28 22:18:21,790 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:18:21] "GET /web/image?model=res.company&id=1&field=logo HTTP/1.1" 200 - 10 0.000 0.020
+2024-05-28 22:18:21,835 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:18:21] "POST /web/dataset/call_kw/ir.model.data/check_object_reference HTTP/1.1" 200 - 3 0.005 0.000
+2024-05-28 22:18:21,870 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:18:21] "POST /web/dataset/call_kw/barcode.nomenclature/read HTTP/1.1" 200 - 5 0.001 0.009
+2024-05-28 22:18:21,910 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:18:21] "POST /web/dataset/call_kw/barcode.rule/search_read HTTP/1.1" 200 - 3 0.005 0.005
+2024-05-28 22:18:24,170 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:18:24] "GET /web/image/hr.employee.public/2/avatar_128 HTTP/1.1" 200 - 14 0.000 0.020
+2024-05-28 22:18:44,340 13048 INFO blank odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-05-28 22:18:44,340 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:18:44] "GET /pos/ui?config_id=1 HTTP/1.1" 200 - 135 0.082 4.112
+2024-05-28 22:18:44,445 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:18:44] "GET /web/assets/240-ba46a22/point_of_sale.assets.min.css HTTP/1.1" 200 - 9 0.010 0.005
+2024-05-28 22:18:44,455 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:18:44] "GET /web/assets/241-ba46a22/point_of_sale.assets.min.js HTTP/1.1" 200 - 4 0.000 0.010
+2024-05-28 22:18:45,250 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:18:45] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.005 0.035
+2024-05-28 22:18:45,325 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:18:45] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.045
+2024-05-28 22:18:45,730 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:18:45] "POST /web/dataset/call_kw/pos.session/load_pos_data HTTP/1.1" 200 - 208 0.202 0.338
+2024-05-28 22:18:45,790 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:18:45] "GET /web/image?model=res.company&id=1&field=logo HTTP/1.1" 200 - 10 0.010 0.010
+2024-05-28 22:18:45,815 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:18:45] "POST /web/dataset/call_kw/ir.model.data/check_object_reference HTTP/1.1" 200 - 3 0.000 0.005
+2024-05-28 22:18:45,845 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:18:45] "POST /web/dataset/call_kw/barcode.nomenclature/read HTTP/1.1" 200 - 5 0.005 0.005
+2024-05-28 22:18:45,885 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:18:45] "POST /web/dataset/call_kw/barcode.rule/search_read HTTP/1.1" 200 - 3 0.000 0.010
+2024-05-28 22:18:48,530 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:18:48] "GET /web/image/hr.employee.public/2/avatar_128 HTTP/1.1" 200 - 14 0.014 0.016
+2024-05-28 22:19:27,480 13048 INFO blank odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-05-28 22:19:27,480 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:19:27] "GET /pos/ui?config_id=1 HTTP/1.1" 200 - 135 0.107 3.630
+2024-05-28 22:19:27,585 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:19:27] "GET /web/assets/242-9657b6d/point_of_sale.assets.min.css HTTP/1.1" 200 - 9 0.010 0.005
+2024-05-28 22:19:27,590 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:19:27] "GET /web/assets/243-9657b6d/point_of_sale.assets.min.js HTTP/1.1" 200 - 7 0.005 0.010
+2024-05-28 22:19:28,390 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:19:28] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.010 0.020
+2024-05-28 22:19:28,425 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:19:28] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.015
+2024-05-28 22:19:29,095 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:19:29] "POST /web/dataset/call_kw/pos.session/load_pos_data HTTP/1.1" 200 - 208 0.211 0.544
+2024-05-28 22:19:29,155 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:19:29] "GET /web/image?model=res.company&id=1&field=logo HTTP/1.1" 200 - 10 0.007 0.018
+2024-05-28 22:19:29,181 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:19:29] "POST /web/dataset/call_kw/ir.model.data/check_object_reference HTTP/1.1" 200 - 3 0.001 0.003
+2024-05-28 22:19:29,211 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:19:29] "POST /web/dataset/call_kw/barcode.nomenclature/read HTTP/1.1" 200 - 5 0.003 0.005
+2024-05-28 22:19:29,239 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:19:29] "POST /web/dataset/call_kw/barcode.rule/search_read HTTP/1.1" 200 - 3 0.002 0.004
+2024-05-28 22:19:31,120 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:19:31] "GET /web/image/hr.employee.public/2/avatar_128 HTTP/1.1" 200 - 14 0.010 0.020
+2024-05-28 22:19:46,890 13048 INFO blank odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-05-28 22:19:46,890 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:19:46] "GET /pos/ui?config_id=1 HTTP/1.1" 200 - 135 0.134 4.619
+2024-05-28 22:19:46,990 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:19:46] "GET /web/assets/244-14a69c1/point_of_sale.assets.min.css HTTP/1.1" 200 - 9 0.000 0.020
+2024-05-28 22:19:46,995 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:19:46] "GET /web/assets/245-14a69c1/point_of_sale.assets.min.js HTTP/1.1" 200 - 9 0.010 0.010
+2024-05-28 22:19:47,920 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:19:47] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.005 0.035
+2024-05-28 22:19:47,970 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:19:47] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.020
+2024-05-28 22:19:48,687 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:19:48] "POST /web/dataset/call_kw/pos.session/load_pos_data HTTP/1.1" 200 - 208 0.276 0.546
+2024-05-28 22:19:48,740 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:19:48] "GET /web/image?model=res.company&id=1&field=logo HTTP/1.1" 200 - 10 0.007 0.007
+2024-05-28 22:19:48,765 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:19:48] "POST /web/dataset/call_kw/ir.model.data/check_object_reference HTTP/1.1" 200 - 3 0.000 0.005
+2024-05-28 22:19:48,790 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:19:48] "POST /web/dataset/call_kw/barcode.nomenclature/read HTTP/1.1" 200 - 5 0.000 0.010
+2024-05-28 22:19:48,820 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:19:48] "POST /web/dataset/call_kw/barcode.rule/search_read HTTP/1.1" 200 - 3 0.000 0.005
+2024-05-28 22:19:52,600 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:19:52] "GET /web/image/hr.employee.public/2/avatar_128 HTTP/1.1" 200 - 14 0.000 0.030
+2024-05-28 22:19:54,491 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-28 22:19:54,500 13048 INFO blank odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-28 22:21:22,660 13048 INFO blank odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-05-28 22:21:22,670 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:21:22] "GET /pos/ui?config_id=1 HTTP/1.1" 200 - 135 0.074 3.950
+2024-05-28 22:21:22,765 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:21:22] "GET /web/assets/246-8ef625c/point_of_sale.assets.min.css HTTP/1.1" 200 - 9 0.005 0.015
+2024-05-28 22:21:22,765 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:21:22] "GET /web/assets/247-8ef625c/point_of_sale.assets.min.js HTTP/1.1" 200 - 7 0.005 0.010
+2024-05-28 22:21:23,555 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:21:23] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.010 0.025
+2024-05-28 22:21:23,665 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:21:23] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.040
+2024-05-28 22:21:24,370 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:21:24] "POST /web/dataset/call_kw/pos.session/load_pos_data HTTP/1.1" 200 - 208 0.306 0.554
+2024-05-28 22:21:24,415 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:21:24] "GET /web/image?model=res.company&id=1&field=logo HTTP/1.1" 200 - 10 0.010 0.005
+2024-05-28 22:21:24,435 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:21:24] "POST /web/dataset/call_kw/ir.model.data/check_object_reference HTTP/1.1" 200 - 3 0.000 0.000
+2024-05-28 22:21:24,465 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:21:24] "POST /web/dataset/call_kw/barcode.nomenclature/read HTTP/1.1" 200 - 5 0.005 0.005
+2024-05-28 22:21:24,495 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:21:24] "POST /web/dataset/call_kw/barcode.rule/search_read HTTP/1.1" 200 - 3 0.005 0.005
+2024-05-28 22:21:26,325 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:21:26] "GET /web/image/hr.employee.public/2/avatar_128 HTTP/1.1" 200 - 14 0.010 0.015
+2024-05-28 22:22:07,390 13048 INFO blank odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-05-28 22:22:07,390 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:22:07] "GET /pos/ui?config_id=1 HTTP/1.1" 200 - 135 0.084 3.643
+2024-05-28 22:22:07,522 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:22:07] "GET /web/assets/248-49e4e30/point_of_sale.assets.min.css HTTP/1.1" 200 - 9 0.010 0.008
+2024-05-28 22:22:07,545 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:22:07] "GET /web/assets/249-49e4e30/point_of_sale.assets.min.js HTTP/1.1" 200 - 4 0.000 0.010
+2024-05-28 22:22:08,335 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:22:08] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.000 0.020
+2024-05-28 22:22:08,375 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:22:08] "GET /websocket HTTP/1.1" 101 - 1 0.005 0.010
+2024-05-28 22:22:08,965 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:22:08] "POST /web/dataset/call_kw/pos.session/load_pos_data HTTP/1.1" 200 - 208 0.255 0.395
+2024-05-28 22:22:09,025 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:22:09] "GET /web/image?model=res.company&id=1&field=logo HTTP/1.1" 200 - 10 0.005 0.018
+2024-05-28 22:22:09,050 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:22:09] "POST /web/dataset/call_kw/ir.model.data/check_object_reference HTTP/1.1" 200 - 3 0.000 0.005
+2024-05-28 22:22:09,075 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:22:09] "POST /web/dataset/call_kw/barcode.nomenclature/read HTTP/1.1" 200 - 5 0.005 0.000
+2024-05-28 22:22:09,120 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:22:09] "POST /web/dataset/call_kw/barcode.rule/search_read HTTP/1.1" 200 - 3 0.000 0.005
+2024-05-28 22:22:10,630 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:22:10] "GET /web/image/hr.employee.public/2/avatar_128 HTTP/1.1" 200 - 14 0.010 0.000
+2024-05-28 22:23:28,765 13048 INFO blank odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-05-28 22:23:28,765 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:23:28] "GET /pos/ui?config_id=1 HTTP/1.1" 200 - 135 0.070 4.000
+2024-05-28 22:23:28,865 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:23:28] "GET /web/assets/250-be590e4/point_of_sale.assets.min.css HTTP/1.1" 200 - 9 0.005 0.016
+2024-05-28 22:23:28,865 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:23:28] "GET /web/assets/251-be590e4/point_of_sale.assets.min.js HTTP/1.1" 200 - 7 0.005 0.011
+2024-05-28 22:23:29,760 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:23:29] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.010 0.020
+2024-05-28 22:23:29,810 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:23:29] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.015
+2024-05-28 22:23:30,346 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:23:30] "POST /web/dataset/call_kw/pos.session/load_pos_data HTTP/1.1" 200 - 208 0.183 0.438
+2024-05-28 22:23:30,407 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:23:30] "GET /web/image?model=res.company&id=1&field=logo HTTP/1.1" 200 - 10 0.007 0.015
+2024-05-28 22:23:30,435 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:23:30] "POST /web/dataset/call_kw/ir.model.data/check_object_reference HTTP/1.1" 200 - 3 0.002 0.003
+2024-05-28 22:23:30,478 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:23:30] "POST /web/dataset/call_kw/barcode.nomenclature/read HTTP/1.1" 200 - 5 0.005 0.010
+2024-05-28 22:23:30,513 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:23:30] "POST /web/dataset/call_kw/barcode.rule/search_read HTTP/1.1" 200 - 3 0.003 0.005
+2024-05-28 22:23:32,760 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:23:32] "GET /web/image/hr.employee.public/2/avatar_128 HTTP/1.1" 200 - 14 0.015 0.015
+2024-05-28 22:26:36,705 13048 INFO blank odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-05-28 22:26:36,705 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:26:36] "GET /pos/ui?config_id=1 HTTP/1.1" 200 - 135 0.090 3.615
+2024-05-28 22:26:36,805 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:26:36] "GET /web/assets/252-283c7d6/point_of_sale.assets.min.css HTTP/1.1" 200 - 9 0.006 0.009
+2024-05-28 22:26:36,825 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:26:36] "GET /web/assets/253-283c7d6/point_of_sale.assets.min.js HTTP/1.1" 200 - 4 0.000 0.011
+2024-05-28 22:26:37,430 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:26:37] "GET /web/webclient/translations/e2408b7f05a470706a52978b70ec680d6addb903?lang=en_US HTTP/1.1" 200 - 2 0.010 0.000
+2024-05-28 22:26:37,540 13048 INFO ? werkzeug: 127.0.0.1 - - [28/May/2024 22:26:37] "GET /point_of_sale/static/src/img/touch-icon-196.png HTTP/1.1" 200 - 0 0.000 0.000
+2024-05-28 22:26:37,540 13048 INFO ? werkzeug: 127.0.0.1 - - [28/May/2024 22:26:37] "GET /point_of_sale/static/src/img/favicon.ico HTTP/1.1" 200 - 0 0.000 0.000
+2024-05-28 22:26:37,650 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:26:37] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 200 - 5 0.010 0.020
+2024-05-28 22:26:37,765 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:26:37] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.050
+2024-05-28 22:26:38,205 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:26:38] "POST /web/dataset/call_kw/pos.session/load_pos_data HTTP/1.1" 200 - 208 0.211 0.384
+2024-05-28 22:26:38,265 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:26:38] "GET /web/image?model=res.company&id=1&field=logo HTTP/1.1" 200 - 10 0.000 0.020
+2024-05-28 22:26:38,290 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:26:38] "POST /web/dataset/call_kw/ir.model.data/check_object_reference HTTP/1.1" 200 - 3 0.002 0.003
+2024-05-28 22:26:38,320 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:26:38] "POST /web/dataset/call_kw/barcode.nomenclature/read HTTP/1.1" 200 - 5 0.000 0.010
+2024-05-28 22:26:38,345 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:26:38] "POST /web/dataset/call_kw/barcode.rule/search_read HTTP/1.1" 200 - 3 0.000 0.005
+2024-05-28 22:26:40,510 13048 INFO blank werkzeug: 127.0.0.1 - - [28/May/2024 22:26:40] "GET /web/image/hr.employee.public/2/avatar_128 HTTP/1.1" 200 - 14 0.007 0.013
+2024-05-28 22:30:02,650 13048 INFO blank odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-28 22:30:02,654 13048 INFO blank odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-28 22:30:12,220 13048 INFO ? odoo.service.server: Initiating shutdown 
+2024-05-28 22:30:12,220 13048 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-05-28 22:30:12,565 13048 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 6 connections  
